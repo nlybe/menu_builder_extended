@@ -1,0 +1,30 @@
+{
+    "name": "nlybe/menu_builder_extended",
+    "description": "Menu Builder Extended plugin",
+    "type": "elgg-plugin",
+    "keywords": [ "elgg", "plugin", "menu", "multilingual" ],
+    "homepage": "https://github.com/nlybe/menu_builder_extended",
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "Nikos Lyberakis",
+            "email": "nikos@lyberakis.gr",
+            "role": "Web Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "composer/installers": "^1.0.8"
+    },
+    "extra": {
+        "installer-name": "menu_builder_extended"
+    },
+	"conflict": {
+		"elgg/elgg": "<5.0"
+	},
+    "config": {
+        "allow-plugins": {
+            "composer/installers": true
+        }
+    }
+}
